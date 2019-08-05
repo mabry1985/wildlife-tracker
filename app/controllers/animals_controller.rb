@@ -6,7 +6,7 @@ class AnimalsController < ApplicationController
   end
 
   def new
-    @animals = Animal.all
+    @animal = Animal.new
     render :new
   end
 
